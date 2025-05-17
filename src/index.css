@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+@theme {
+    /* colours */
+    --color-hydrangea: oklch(95.4% 0.038 75.164);
+    --color-rock: oklch(55.3% 0.013 58.071);
+    --color-cornflower: oklch(70.7% 0.165 254.624);
+    --color-cornflower-light: oklch(80.9% 0.105 251.813);
+    --color-barbie: #ff4592;
+    --color-carnation: #ffa1c8;
+    --color-hackergreen: #a6ff7a;
+    --color-royalpurp: #cf4dff;
+
+    /* custom fonts */
+    --font-incon: "Inconsolata", monospace;
+    --font-press: "Press Start 2P", sans-serif;
+    --font-dot: "DotGothic16", monospace;
+
+    /* glowing texts */
+    --text-shadow-glow-carn: 0px 0px 10px #ffa1c8;
+    --text-shadow-glow-barbie: 0px 0px 10px #ff4592;
+    --text-shadow-glow-white: 0px 0px 10px #ffffff;
+    --text-shadow-glow-hack: 0px 0px 10px #a6ff7a;
+    --text-shadow-glow-cf: 0px 0px 10px oklch(70.7% 0.165 254.624);
+    --text-shadow-glow-royal: 0px 0px 10px #cf4dff;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
